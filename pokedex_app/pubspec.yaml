@@ -1,0 +1,28 @@
+name: pokedex_app
+description: Una aplicación de Pokédex con principios de UX y UI.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  shared_preferences: ^2.0.15
+  get_it: ^7.2.0
+  flutter_bloc: ^8.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/pokedex_logo.png
